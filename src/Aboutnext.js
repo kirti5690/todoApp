@@ -13,7 +13,7 @@ function Aboutnext() {
     <h2 className='center '>About the App</h2>
     <div className='my-3  '>
         
-        <img src='../absolutvision-82TpEld0_e4-unsplash-removebg-preview.png' alt='wraperImage'className='col-md-5 float-md-start mb-5 '/>
+        <img src='../absolutvision-82TpEld0_e4-unsplash-removebg-preview.jpg' alt='wraperImage'className='col-md-5 float-md-start mb-5 '/>
         <p className='text'>A Todo app, short for "To-Do" app, is a software application or tool designed to help individuals or teams manage tasks and stay organized. Its primary purpose is to make it easy to create, organize, track, and complete tasks or to-do items.</p>
         <p className='text my-2'>Here are some common features and functionalities this app typically provides:</p>    
         <p>

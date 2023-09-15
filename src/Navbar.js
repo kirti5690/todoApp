@@ -5,7 +5,7 @@ function Navbar() {
     <div>
        <nav id='home'className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-  <img src="../Screenshot__145_-removebg-preview.png" alt='my image'width="40" height="28" class="d-inline-block align-text-top" style={{filter:'invert(100%)'}}/>
+  <img src="../Screenshot__145_-removebg-preview.jpg" alt='my image'width="40" height="28" class="d-inline-block align-text-top" style={{filter:'invert(100%)'}}/>
     <a className="navbar-brand" href="#">Todo App</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
