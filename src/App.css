@@ -1,38 +1,232 @@
-.App {
+.image{
+
+  position: relative;
+  width: 100%;
+  height: 78vh; 
+  overflow: hidden;
+}
+
+#video-container {
+  position: relative;
+  width: 100%;
+  height: 76vh; 
+  overflow: hidden;
+}
+.content-overlay{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
   text-align: center;
+  color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-overlay p{
+  font-size: 24px;
+  margin-top: 20px;
+  
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content-overlay h1{
+  font-size: 46px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.content-overlay strong{
+  color: chocolate;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.center{
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 50px;
+  color: brown;
+  margin-bottom: 45px;
+}
+.text{
+  font-size: 23px;
+  font-weight: bold;
+  margin-top:-25px;
+  margin-left: 45px;
+}
+.points {
+  font-size: 18px;
+  font-weight: bold;
+  color: chocolate;
+}
+.points strong{
+  color: brown;
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  background-color: bisque;
+}
+
+.task-list button {
+  background-color: burlywood;
+  color: brown;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.task-list button:hover {
+  background-color: white;
+}
+
+.task-list p {
+  margin: 0;
+  flex-grow: 1;
+}
+
+
+
+.task-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+
+.task-input input[type="text"] {
+  flex-grow: 1;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: bisque;
+  color: black;
+  
+}
+
+.task-input button {
+  background-color: burlywood;
+  color: brown;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  
+  margin-left: -100px;
+  
+}
+
+.task-input button:hover {
+  background-color: white;
+}
+.bodyy{
+   background: grey;
+   height: 300px;
+   border-radius: 20px;
+  
+}
+.bodyy h2{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.text1{
+   color: black;
+   font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.task-text {
+  flex-grow: 1;
+  font-weight: bold;
+ 
+}
+
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.task-buttons button {
+  padding: 5px 10px;
+  background-color: burlywood;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.task-buttons button:hover {
+  background-color: white; 
+}
+
+.filter-input {
+  width: 100%; /* Make the input take up the full width of its container */
+  padding: 10px; /* Add some padding for better spacing */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 5px; /* Round the corners */
+}
+.filter-input:focus {
+  outline: none; /* Remove the default outline */
+  border-color: black; /* Change the border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow on focus */
+}
+
+.quick-links {
+    
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.quick-links h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: brown;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 0.5rem;
+}
+
+.quick-links li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quick-links li a:hover {
+  color: brown;
+}
+.footer-text {
+  margin-top: 0.5rem;
+  color: rosybrown;
+  
+}
+
+footer {
+  background: beige;
+  text-align: center;
+  padding: 1rem 0;
+   max-height: 250px;
+   opacity: 9;
 }
